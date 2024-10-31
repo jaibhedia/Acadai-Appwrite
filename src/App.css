@@ -1,0 +1,72 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h1, .content h2 {
+  color: #333;
+}
+
+.content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.content .course-content h2 {
+  color: #555;
+}
+
+.generated-course {
+  margin-top: 20px;
+}
+
+.generated-course h2 {
+  color: #333;
+}
+
+.generated-course p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.generated-course a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.generated-course a:hover {
+  text-decoration: underline;
+}
